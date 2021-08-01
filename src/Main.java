@@ -13,7 +13,10 @@ public class Main {
         Figura figura3 = Build.build("RAYO");
         lienzo.add(figura3, new Rectangulo(new Point(2, 6), new Point(9, 7)));
 
-        System.out.println(figura1);
+        System.out.println(lienzo.lista);
+        System.out.println("Soy un " + figura1 + " de color " + figura1.getColorFondo() + " con borde " + figura1.getColorBorde());
+        System.out.println("Soy un " + figura2 + " de color " + figura2.getColorFondo() + " con borde " + figura2.getColorBorde());
+        System.out.println("Soy un " + figura3 + " de color " + figura3.getColorFondo() + " con borde " + figura3.getColorBorde());
 
     }
 

@@ -16,5 +16,12 @@ public class Lienzo implements Draw {
 		figura.setRectangulo(rectangulo);
 		lista.add(figura);
 		figura.Dibujar();
+		figura.setColorBorde("Negro");
+		figura.setColorFondo("Blanco");
+	}
+	public void getSelected(Point randomPoint){
+		for(int i=0; i<lista.size(); i++){
+			lista.get(i);
+		}
 	}
 }
